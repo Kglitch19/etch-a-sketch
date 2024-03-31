@@ -12,4 +12,4 @@ for (let i=1; i<=16; i++) {
     container.append(div);
 }
 
-console.log(container.childNodes);
+//console.log(container.childNodes);
