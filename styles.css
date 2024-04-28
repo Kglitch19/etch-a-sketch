@@ -118,8 +118,8 @@ button {
 }
 
 .container {
-    height: 600px;
-    width: 600px;
+    height: 430px;
+    width: 430px;
     display: flex;
     flex-direction: column;
     border: 15px solid rgb(150, 142, 142);
