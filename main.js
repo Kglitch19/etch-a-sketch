@@ -12,7 +12,7 @@ clearButton.addEventListener('click', clearGrid);
 
 //Run makeGrid and draw functions on page load to make default 10x10 grid that is drawable
 makeGrid();
-draw();
+//draw();
 
 //Indicates to user it's a square grid Y x Y
 function duplicateGrid() {
