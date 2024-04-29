@@ -22,21 +22,21 @@ function duplicateGrid() {
 
 //Save space and clutter on page with appear/disappearing user instructions for grid size
 function entryHint() {
-    promptText.textContent = "Enter a number between 2 and 99."; 
+    promptText.textContent = "Enter a number between 2 and 100."; 
 }
 
 //Makes nested divs that are organized into a grid using CSS flexbox. 
 //Invalid entries get warning, default grid is 10x10, else it is user a defined resolution.
 function makeGrid() {
     const number = userValue.value;
-    if(number < 0 || number > 99 || isNaN(number)) {
-        promptText.textContent = "Make sure it's a number from 2 to 99!";
+    if(number < 0 || number > 100 || isNaN(number)) {
+        promptText.textContent = "Make sure it's a number from 2 to 100!";
     } else {
     promptText.textContent = "";
     copyInput.textContent = "";
     userValue.value = "";
     containerDiv.innerHTML = "";
-    if (number == 0 || number > 99 || number == "") {
+    if (number == 0 || number > 100 || number == "") {
         for(var i = 0; i < 10; i++) {
             const row = document.createElement('div');
             row.classList.add('row');
